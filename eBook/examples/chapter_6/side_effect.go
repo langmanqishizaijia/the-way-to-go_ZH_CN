@@ -1,5 +1,5 @@
 // side_effect.go
-package main
+package chapter_6
 
 import (
 	"fmt"

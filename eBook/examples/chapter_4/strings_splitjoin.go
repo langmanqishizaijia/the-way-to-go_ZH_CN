@@ -3,6 +3,7 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"strings"
 )
 
@@ -32,3 +33,16 @@ Splitted in slice: [GO1 The ABC of Go 25]
 GO1 - The ABC of Go - 25 -
 sl2 joined by ;: GO1;The ABC of Go;25
 */
+func init() {
+	s := "hello world"
+	reader := strings.NewReader(s)
+	var ret = make([]byte, 5)
+	for {
+		n, err := reader.Read(ret)
+		if err != io.EOF {
+			fmt.Printf("cnt=%v , %v\n", n, string(ret))
+		} else {
+			break
+		}
+	}
+}

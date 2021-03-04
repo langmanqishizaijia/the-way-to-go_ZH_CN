@@ -1,4 +1,4 @@
-package main
+package chapter_6
 
 func main() {
 	println("In main before calling greeting")

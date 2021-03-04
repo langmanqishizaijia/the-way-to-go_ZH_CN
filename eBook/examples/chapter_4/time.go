@@ -25,3 +25,17 @@ func main() {
 	s := t.Format("20060102")
 	fmt.Println(t, "=>", s) // Wed Dec 21 08:52:14 +0000 UTC 2011 => 20111221
 }
+
+func init() {
+	t := time.Now()
+	fmt.Printf("year =%v\n", t.Year())
+	fmt.Printf("month =%v\n", t.Month())
+	fmt.Printf("Day =%v\n", t.Day())
+	fmt.Printf("Hour =%v\n", t.Hour())
+	fmt.Printf("duration=%v\n", time.Duration(-3))
+
+	startingTime := time.Now().UTC()
+	time.Sleep(10 * time.Millisecond)
+	endingTime := time.Now().UTC()
+	fmt.Printf("duration=%v\n", endingTime.Sub(startingTime))
+}

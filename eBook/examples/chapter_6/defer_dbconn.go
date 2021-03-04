@@ -1,5 +1,5 @@
 // defer_dbconn.go
-package main
+package chapter_6
 
 import "fmt"
 

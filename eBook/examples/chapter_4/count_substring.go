@@ -5,6 +5,9 @@ import (
 	"strings"
 )
 
+func init() {
+	fmt.Printf("start init function !!!!\n")
+}
 func main() {
 	var str string = "Hello, how is it going, Hugo?"
 	var manyG = "gggggggggg"

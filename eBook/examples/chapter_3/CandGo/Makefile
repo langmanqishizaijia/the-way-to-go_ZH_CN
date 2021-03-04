@@ -1,6 +1,6 @@
 include $(GOROOT)/src/Make.inc
 
-TARG=rand
+TARG=CandGo
 CGOFILES=\
    c1.go\
 

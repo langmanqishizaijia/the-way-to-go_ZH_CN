@@ -1,5 +1,5 @@
 // c2.go
-package print
+package CandGo
 
 // #include <stdio.h>
 // #include <stdlib.h>

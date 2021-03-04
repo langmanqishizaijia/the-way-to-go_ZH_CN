@@ -1,5 +1,5 @@
 // c1.go
-package rand
+package CandGo
 
 // #include <stdlib.h>
 import "C"

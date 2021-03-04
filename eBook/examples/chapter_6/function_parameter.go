@@ -1,5 +1,5 @@
 // function_parameter.go
-package main
+package chapter_6
 
 import (
 	"fmt"

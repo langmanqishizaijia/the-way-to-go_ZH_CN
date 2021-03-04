@@ -1,5 +1,5 @@
 // test_defer.go
-package main
+package chapter_6
 
 import (
 	"fmt"
