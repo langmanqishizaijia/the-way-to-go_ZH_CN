@@ -1,5 +1,5 @@
 // defer_logvalues.go
-package chapter_6
+package main
 
 import (
 	"io"
